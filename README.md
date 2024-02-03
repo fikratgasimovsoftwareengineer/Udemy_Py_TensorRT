@@ -10,4 +10,6 @@ Following Repository provide implementation for both onnx and tensorrt python ap
 2. YoloV4 pretrained Darketn with Onnx Python Inference
 
 3. YoloV5 pretrained object detection model with Python Inference and Onnx API
+
+4.Onnx-Inference-Yolov5 contains Tensorrt 8.5.1 Python Inference  
 ```
