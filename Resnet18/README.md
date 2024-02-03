@@ -1,5 +1,8 @@
 #  This is Resnet 18 classification task based onnx and tensorrt
 
+
+#### Attention...
+### In order to implement this codes, you need to follow udemy course with docker file configurations in order to achieve library dependencies well built. 
 ```
 1. file which is called convert_onnx_to_engineresnet
 
