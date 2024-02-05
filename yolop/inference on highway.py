@@ -1,3 +1,13 @@
+''''
+developed by: FIkrat Gasimov
+project: Detect and Segment High Way objects 
+date:01.22.2024
+
+
+''''
+
+
+
 import cv2
 import argparse
 import numpy as np
@@ -5,7 +15,7 @@ import numpy as np
 class yolop():
     def __init__(self, confThreshold=0.25, nmsThreshold=0.5, objThreshold=0.45):
         with open('/tensorfl_vision/yolop/bdd100k.names', 'rt') as f:
-            self.classes = f.read().rstrip('\n').split('\n')   ###这个是在bdd100k数据集上训练的模型做opencv部署的，如果你在自己的数据集上训练出的模型做opencv部署，那么需要修改self.classes
+            self.classes = f.read().rstrip('\n').split('\n') 
         num_classes = len(self.classes)
         anchors = [[3,9,5,11,4,20], [7,18,6,39,12,31], [19,50,38,81,68,157]]
         self.nl = len(anchors)
@@ -105,7 +115,7 @@ class yolop():
             img = cv2.resize(srcimg, (self.inpWidth, self.inpHeight), interpolation=cv2.INTER_AREA)
         return img, newh, neww, padh, padw
 
-    def _normalize(self, img):  ### c++: https://blog.csdn.net/wuqingshan2010/article/details/107727909
+    def _normalize(self, img): 
         img = img.astype(np.float32) / 255.0
         img = (img - self.mean) / self.std
         return img
@@ -140,6 +150,12 @@ class yolop():
         return outimg
 
 if __name__ == "__main__":
+
+    '''
+    COMMAND LINE ARGUMENTS
+    '''
+
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--imgpath", type=str, default='images/0ace96c3-48481887.jpg', help="image path")
     parser.add_argument('--confThreshold', default=0.25, type=float, help='class confidence')
@@ -151,7 +167,7 @@ if __name__ == "__main__":
     srcimg = cv2.imread(args.imgpath)
     outimg = yolonet.detect(srcimg)
     
-    winName = 'Deep learning object detection in OpenCV'
+    winName = 'Deep learning object detection WITH FAST ONNX'
     cv2.namedWindow(winName, 0)
     cv2.imshow(winName, outimg)
     cv2.waitKey(0)
