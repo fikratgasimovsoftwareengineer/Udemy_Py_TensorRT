@@ -16,4 +16,6 @@ Following Repository provide implementation for both onnx and tensorrt python ap
 5. YoloV5 Video Inference describes how to implement fast inference on video frames with tensorrt library! 
 
 6. YoloV8 folder in fact will explain how to make an fast inference on images and video frames with ONNX Dynamic API
+
+7. Yolo P model describes implementation for ONNX API infefrence on which cars camera deteect cars around it, as well as renders instance segmentation for highway.
 ```
