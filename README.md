@@ -12,5 +12,8 @@ Following Repository provide implementation for both onnx and tensorrt python ap
 3. YoloV5 pretrained object detection model with Python Inference and Onnx API
 
 4.Onnx-Inference-Yolov5 contains Tensorrt 8.5.1 Python Inference 
+
 5. YoloV5 Video Inference describes how to implement fast inference on video frames with tensorrt library! 
+
+6. YoloV8 folder in fact will explain how to make an fast inference on images and video frames with ONNX Dynamic API
 ```
