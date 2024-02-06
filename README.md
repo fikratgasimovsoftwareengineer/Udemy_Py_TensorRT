@@ -18,4 +18,5 @@ Following Repository provide implementation for both onnx and tensorrt python ap
 6. YoloV8 folder in fact will explain how to make an fast inference on images and video frames with ONNX Dynamic API
 
 7. Yolo P model describes implementation for ONNX API infefrence on which cars camera deteect cars around it, as well as renders instance segmentation for highway.
+8. Bonus Lecture: Deep Q Reinforcement Learning Policy with GYM Library!
 ```
