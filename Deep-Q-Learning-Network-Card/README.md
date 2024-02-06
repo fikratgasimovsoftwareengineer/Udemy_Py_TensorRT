@@ -19,6 +19,8 @@ Repository is described by Followign files :
 
 - "trained_model_temp.h5" - this is just a temporary model obtained after several training episodes to illustrate the performance of untrained model, and to use it as a baseline
 
-- In case , you can also download trained_model_temp.h5 from google drive :
-(LINK for model )["https://drive.google.com/file/d/1KyS_CK-KIYdTNwrOyFrWP4yeblJWyWj3/view?usp=drive_link]
+
 ```
+
+#### Download Pretrained model from google drive in case:
+(LINK for model )["https://drive.google.com/file/d/1KyS_CK-KIYdTNwrOyFrWP4yeblJWyWj3/view?usp=drive_link]
