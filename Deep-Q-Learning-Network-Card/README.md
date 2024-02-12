@@ -2,6 +2,11 @@
 
 These code files implement the Deep Q-learning Network (DQN) algorithm from scratch by using Python, TensorFlow (Keras), and OpenAI Gym. The codes are tested in the OpenAI Gym Cart Pole (v1) environment. These code files are a part of the reinforcement learning tutorial I am developing. The tutorial webpage explaining the codes is given here: 
 
+
+#### REFER TO VIDEO DEMO:
+
+["video demo"](https://youtu.be/4Rctrn_xN3A)
+
 #### Attention...
 
 #### Please install requirements file within docker container which is initialized within udemy course!
