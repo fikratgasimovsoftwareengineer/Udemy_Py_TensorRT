@@ -2,24 +2,24 @@
 
 ### This readme file contains pre-repositories that will have their separate README file for detail explanations
 
-```
-Following Repository provide implementation for both onnx and tensorrt python api inference.
 
-1. Resnet 18 pretrained model either for onnx and tensorrt
+#### Following Repository provide implementation for both onnx and tensorrt python api inference.
 
-2. YoloV4 pretrained Darketn with Onnx Python Inference
+- Resnet 18 pretrained model either for onnx and tensorrt
 
-3. YoloV5 pretrained object detection model with Python Inference and Onnx API
+- YoloV4 pretrained Darketn with Onnx Python Inference
 
-4.Onnx-Inference-Yolov5 contains Tensorrt 8.5.1 Python Inference 
+- YoloV5 pretrained object detection model with Python Inference and Onnx API
 
-5. YoloV5 Video Inference describes how to implement fast inference on video frames with tensorrt library! 
+- Onnx-Inference-Yolov5 contains Tensorrt 8.5.1 Python Inference 
 
-6. YoloV8 folder in fact will explain how to make an fast inference on images and video frames with ONNX Dynamic API
+- YoloV5 Video Inference describes how to implement fast inference on video frames with tensorrt library! 
 
-7. Yolo P model describes implementation for ONNX API infefrence on which cars camera deteect cars around it, as well as renders instance segmentation for highway.
+- YoloV8 folder in fact will explain how to make an fast inference on images and video frames with ONNX Dynamic API
 
-8. Deep Reinforcement Learning Applications such as Frozen Lake, Card Playing, Lunar Lader !
+- Yolo P model describes implementation for ONNX API infefrence on which cars camera deteect cars around it, as well as renders instance segmentation for highway.
 
-9. Bonus Lecture: Deep Q Reinforcement Learning Policy with GYM Library!
+- Deep Reinforcement Learning Applications such as Frozen Lake, Card Playing, Lunar Lader !
+
+- Bonus Lecture: Deep Q Reinforcement Learning Policy with GYM Library!
 ```
