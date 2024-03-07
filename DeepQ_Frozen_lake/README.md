@@ -1,5 +1,5 @@
 # Frozen Lake
-![Frozen Lake](/home/fikrat/Udemy_Py_TensorRT/DeepQ_Frozen_lake/demo.png)
+![Frozen Lake](demo.png)
 
 # Description
 
