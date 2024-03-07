@@ -40,6 +40,7 @@ Reach hole: 0
 Reach frozen: 0
 
 # Run demo
+- Watch demo : ["Watch Demo"](https://youtu.be/Hf9rCg6Be1Q)
 - In order to run demo , you need to do  as the following. This command will save model as .pt extension for later usage. If you want to train model - > frozen_lake.train(3000, is_slippery=is_slippery)
 - Once you have model pretrained then put script in test and evaluation mode - >  frozen_lake.test(10, is_slippery=is_slippery)
 
