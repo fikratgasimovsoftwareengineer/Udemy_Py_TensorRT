@@ -1,3 +1,6 @@
+# Frozen Lake
+![Frozen Lake](/home/fikrat/Udemy_Py_TensorRT/DeepQ_Frozen_lake/demo.png)
+
 # Description
 
 The game starts with the player at location [0,0] of the frozen lake grid world with the goal located at far extent of the world e.g. [3,3] for the 4x4 environment.
