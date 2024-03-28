@@ -2,7 +2,7 @@
 
 Video Inference Folder describes implementation of YoloV7 on video frames
 
-(Demo)[https://youtu.be/s4YrJ4essGY]
+[Demo](https://youtu.be/s4YrJ4essGY)
 ```shell
 In order to run video inference 
 python3  yolov7_config_video_inference.py
